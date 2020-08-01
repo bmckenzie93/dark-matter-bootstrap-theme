@@ -1,7 +1,18 @@
 // Home Page
-.hero-home {
+.home {
+  // Showcase
+  &-showcase {
   background-image: url(../images/space-light.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; 
+  }
+
+  // Section 2
+  &-section-2 {
+    background-image: url(../images/milky-way.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
 }
