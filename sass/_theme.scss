@@ -1,5 +1,14 @@
-// Custom SASS file
+// Typography
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+h2, h3 {
+  font-weight: 900;
+}
+
+// Sections
+//
 // Home Page
 .home {
   // Showcase
@@ -18,3 +27,6 @@
     background-size: cover; 
   }
 }
+
+
+// dont use the card deck, use the grid system so i can say how many rows the cards span on diff sizes
